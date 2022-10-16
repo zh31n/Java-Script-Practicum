@@ -1,0 +1,49 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.todo {
+    text-align: center;
+    width: 1000px;
+    background-color: aqua;
+    margin: auto;
+    text-transform: uppercase;
+}
+
+.js-list {
+    width: 1000px;
+    height: 100%;
+    background-color: orange;
+    margin: auto;
+}
+
+.container-js {
+    width: 70%;
+    height: 100%;
+    margin: 10px auto 10px auto; 
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.render-list {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    background-color: darkgray;
+}
+
+.inp-ren {
+    margin-left: 2%;
+}
+
+.render-list button {
+    margin: 2%;
+}

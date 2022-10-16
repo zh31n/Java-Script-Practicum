@@ -1,0 +1,44 @@
+.slider_container {
+    overflow: hidden;
+    background-color: blueviolet;
+    width: 500px;
+    margin: auto;
+    
+}
+
+.slider_track{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.2s;
+}
+
+.slider-item{
+    height: 150px;
+    min-width: 100px;
+    border-radius: 20%;
+}
+
+.items {
+    height: 90%;
+    width: 30%;
+    background-color: blue;
+    border-radius: 20%;
+}
+
+.slider-item:nth-child(3n+1) {
+    background-color: red;
+}
+
+.slider-item:nth-child(3n+2) {
+    background-color: black;
+}
+
+.slider-item:nth-child(3n+3) {
+    background-color: orange;
+}
+
+.slider_btn {
+    text-align: center;
+    text-transform: uppercase;
+}
